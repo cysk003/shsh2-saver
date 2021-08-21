@@ -19,5 +19,5 @@ jobs:
             - 
                 name: Saving shsh
                 run: |
-                    wget ${{ secrets.jsonURL }} -O data.json
+                    wget ${{ secrets.jsonURL }} -O data.json >& /dev/null
                     python3 main.py
