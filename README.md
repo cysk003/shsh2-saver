@@ -26,3 +26,5 @@ Then run the script with `python3 main.py`
 
 200 = SHSH saved successfully
 Anything else: check your json
+
+To use the workflow create a secret named jsonURL with a link to your json
