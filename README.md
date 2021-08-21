@@ -1,5 +1,7 @@
 # shsh2-saver
 
+![CI Status](https://github.com/00p513-dev/shsh2-saver/actions/workflows/build.yml/badge.svg?branch=main)
+
 Make a data.json in the same directory like the following:
 ```
 {
