@@ -23,3 +23,9 @@ jobs:
                 run: |
                     wget ${{ secrets.jsonURL }} -O data.json >& /dev/null
                     python3 main.py
+            - 
+               name: Delete workflow runs
+               uses: GitRML/delete-workflow-runs@main
+               with:
+                 retain_days: 3
+                 keep_minimum_runs: 0  
